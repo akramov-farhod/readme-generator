@@ -27,12 +27,15 @@ function generateMarkdown(answers) {
   licenseShieldSelector();
   return `
   ${licenseShield}
+  ***
   ## Title
   ${answers.title}
 
+  ***
   ## Description 
   ${answers.description}
   
+  ***
   ## Table of Contents
   1. [Installation](#Installation)
   2. [Usage](#Usage)
@@ -41,25 +44,37 @@ function generateMarkdown(answers) {
   5. [Tests](#Tests)
   6. [Questions](#Questions)
   
+  ***
   ## Installation
   ${answers.installation}
 
+  ***
   ## Usage
   ${answers.usage}
 
+  ***
   ## License
   ${answers.license}
 
+  ***
   ## Contributing
   ${answers.contributing}
 
+  ***
   ## Tests
   ${answers.tests}
 
+  ***
   ## Questions
-  ${answers.github}
-  ${answers.email}
-`;
+  If you have questions or suggestions regarding this application
+  don't hesitate to contact me.
+  
+  ### GitHub Profile
+  [${answers.github}](https://github.com/${answers.github} "GitHub Profile")
+
+  ### e-mail Address
+    ${answers.email}
+  `;
 }
 
 module.exports = { generateMarkdown };

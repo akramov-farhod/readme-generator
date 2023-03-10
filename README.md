@@ -1,11 +1,14 @@
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ***
   ## Title
-  Application Title
+  geneREADMEtor
 
+  ***
   ## Description 
-  NA
+  geneREADMEtor is a simple application that generates a professional README.md file
   
+  ***
   ## Table of Contents
   1. [Installation](#Installation)
   2. [Usage](#Usage)
@@ -14,21 +17,34 @@
   5. [Tests](#Tests)
   6. [Questions](#Questions)
   
+  ***
   ## Installation
-  NA
+  Clone the repository to your local machine
 
+  ***
   ## Usage
-  NA
+  Once the repository is cloned navigate to the directory and run ```node index.js``` in Terminal/Console
 
+  ***
   ## License
-  GNU GPL v3
+  MIT
 
+  ***
   ## Contributing
-  NA
+  Users can email the author with ideas and suggestions
 
+  ***
   ## Tests
   NA
 
+  ***
   ## Questions
-  NA
-  NA
+  If you have questions or suggestions regarding this application
+  don't hesitate to contact me.
+  
+  ### GitHub Profile
+  [akramov-farhod](https://github.com/akramov-farhod "GitHub Profile")
+
+  ### e-mail Address
+    unreal@email.wrong
+  
