@@ -2,26 +2,67 @@
 const inquirer = require("inquirer");
 inquirer
   .prompt([
-    //title question
     {
       type: "input",
       name: "title",
-      message: "How do you want to title this document?",
-      default: "Title Name",
+      message: "Enter your title",
+      default: "Application Title",
     },
-    //Licences list
+    {
+      type: "input",
+      name: "description",
+      message: "Application Description",
+      default: "NA",
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "Installation instructions",
+      default: "NA",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "Usage instructions",
+      default: "NA",
+    },
     {
       type: "list",
+      message: "Select a license",
       name: "license",
-      message: "Please Select a License",
-      choices: ["License #1", "License #2", "License #3", "License #4"],
-      default: "License#1",
+      choices: ["Apple", "UJS-345", "OOISK", "None"],
+      default: "None",
+    },
+    {
+      type: "input",
+      name: "contributing",
+      message: "How could users contribute to this project?",
+      default: "NA",
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "Test Instructions",
+      default: "NA",
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "Enter your github username",
+      default: "NA",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "Enter your e-mail address",
+      default: "NA",
     },
   ])
   .then((answers) => {
     //function to generate README using MARKup and Dynamic variables
     console.log(answers);
   });
+
 // TODO: Create an array of questions for user input
 const questions = [];
 
