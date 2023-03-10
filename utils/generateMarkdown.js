@@ -27,44 +27,31 @@ function generateMarkdown(answers) {
   licenseShieldSelector();
   return `
   ${licenseShield}
-  ***
   ## Title
   ${answers.title}
 
-  ***
   ## Description 
   ${answers.description}
   
-  ***
   ## Table of Contents
   1. [Installation](#Installation)
   2. [Usage](#Usage)
-  3. [License](#License)
-  4. [Contributing](#Contributing)
-  5. [Tests](#Tests)
-  6. [Questions](#Questions)
+  3. [Contributing](#Contributing)
+  4. [Tests](#Tests)
+  5. [Questions](#Questions)
   
-  ***
   ## Installation
   ${answers.installation}
 
-  ***
   ## Usage
   ${answers.usage}
 
-  ***
-  ## License
-  ${answers.license}
-
-  ***
   ## Contributing
   ${answers.contributing}
 
-  ***
   ## Tests
   ${answers.tests}
 
-  ***
   ## Questions
   If you have questions or suggestions regarding this application
   don't hesitate to contact me.
